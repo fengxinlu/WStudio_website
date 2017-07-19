@@ -314,30 +314,57 @@ a{
 }
 
 @media screen and (min-width: 450px) {
+    html{
+        font-size: 16px !important;
+    }
     body{
         margin-left: auto;
         margin-right: auto;
         width: 960px;
     }
+    .mask{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 46px;
+    }
+    .mask img{
+        width: 76px;
+        height: 72px;
+    }
     .mask .title{
-        font-size: 36px;
-        margin-top: 36px;
+        font-size: 48px;
+        margin-top: 92px;
         margin-bottom: 0;
     }
+    .get-btn{
+        margin-top: 60px;
+    }
     .get-btn >a{
-        font-size: 22px;
+        font-size: 28px;
         padding: 10px 15px;
     }
+    .mask .tab{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
     .mask .tab >span{
-        font-size: 14px;
+        font-size: 16px;
+        padding-right: 8px;
+        margin-right: 5px;
     }
     .team .description{
         font-size: 16px;
+        padding: 0 20px;
     }
     .block-add{
+        padding: 40px;
+        width: calc(100% - 80px);
+        font-size: 0;
+    }
+    .block-add-sm{
         padding: 20px;
         width: calc(100% - 40px);
-        font-size: 0;
     }
     .block-add .block-title{
         font-size: 18px;
@@ -345,11 +372,23 @@ a{
     .block-add .between-line{
         margin-bottom: 12px;
     }
+    .location-list{
+        margin-top: 40px;
+    }
     .location-list >p{
         font-size: 18px;
     }
     .location-content{
         padding: 30px;
+    }
+    .module-container{
+        justify-content: center;
+    }
+    .module-img{
+        padding: 34px;
+    }
+    .module-img:first-child{
+        margin-bottom: 40px;
     }
     .module-content p{
         font-size: 18px;
@@ -359,8 +398,9 @@ a{
         height: 70px;
     }
     .specialty-list >div{
-        height: 46px;
-        line-height: 46px;
+        height: 72px;
+        line-height: 72px;
+        font-size: 22px;
     }
     .specialty-list >img{
         height: 313px;
@@ -370,6 +410,14 @@ a{
     }
     .footer{
         padding: 44px;
+    }
+    .footer-img img{
+        width: 240px;
+        height: 240px;
+    }
+    .footer-img p{
+        font-size: 16px;
+        color: #717071;
     }
     .footer-btn{
         font-size: 22px;

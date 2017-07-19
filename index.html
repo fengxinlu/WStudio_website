@@ -11,7 +11,7 @@
         <img src="images/img-1.png" alt="banner">
         <div class="mask">
             <img src="images/logo.png" alt="logo">
-            <p class="title">为你在整座城市<br>定制上百个会客厅</p>
+            <p class="title">为你在整座城市<br>定制上百个<span style="font-weight: bolder;">会客厅</span></p>
             <div class="tab">
                 <span>即时预订</span>
                 <span>分时付费</span>
@@ -129,7 +129,12 @@
     </div>
     <div class="footer-block"></div>
     <script type="text/javascript">
-        document.documentElement.style.fontSize = document.documentElement.clientWidth/3.75 + "px";
+        var clientWidth = document.documentElement.clientWidth
+        document.documentElement.style.fontSize = clientWidth/3.75 + "px";
+        window.onresize = function(){
+            clientWidth = document.documentElement.clientWidth
+            document.documentElement.style.fontSize = clientWidth/3.75 + "px";
+        }
     </script>
 </body>
 </html>
