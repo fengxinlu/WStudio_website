@@ -94,7 +94,6 @@ a{
     padding: 0.05rem 0.15rem;
     background-color: #01a0eb;
     font-size: 0.16rem;
-    font-weight: 100;
     color: #ffffff;
 }
 
@@ -170,7 +169,6 @@ a{
     left: 50%;
     transform: translateX(-50%);
     background-color: #01a0eb;
-    font-weight: 100;
 }
 
 .team .description{
@@ -180,7 +178,6 @@ a{
     text-indent: 20px;
     color: #ffffff;
     opacity: 0.6;
-    font-weight: 100;
     font-size: 12px;
 }
 
@@ -272,7 +269,6 @@ a{
     line-height: 36px;
     text-align: center;
     color: #ffffff;
-    font-weight: 100;
     font-size: 14px;
 }
 
@@ -286,7 +282,6 @@ a{
     padding: 0.1rem 0.15rem;
     background-color: #01a0eb;
     font-size: 0.16rem;
-    font-weight: 100;
     text-align: center;
     color: #ffffff;
 }
